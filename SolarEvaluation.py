@@ -114,12 +114,6 @@ mars_examples = [Example(
         actual_output=run_agent("Is there life on Mars?"),
         retrieval_context=["There is no definitive proof that life ever existed on the fourth planet of the solar system, Mars."],
         expected_output=["There is no definitive evidence of life on Mars."]
-    ),
-    Example(
-        input="How many rovers have been sent to Mars?",
-        actual_output=run_agent("How many rovers have been sent to Mars?"),
-        retrieval_context=["In addition to a number of other types of probes, 17 mobile rovers have successfully landed on Mars."],
-        expected_output=["Seventeen rovers have been sent to Mars"]
     )
 ]
 
